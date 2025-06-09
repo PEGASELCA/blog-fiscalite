@@ -1,0 +1,11 @@
+title: "Fiscalité Immobilière"
+description: "Blog sur la fiscalité des investissements immobiliers"
+url: "https://fiscalite.mca13.fr"
+baseurl: ""
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+markdown: kramdown
