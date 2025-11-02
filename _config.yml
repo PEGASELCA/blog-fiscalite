@@ -2,6 +2,8 @@ title: "Fiscalité Immobilière"
 description: "Blog sur la fiscalité des investissements immobiliers"
 url: "https://fiscalite.mca13.fr"
 baseurl: ""
+locale: fr-FR
+minimal_mistakes_skin: air
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
@@ -9,3 +11,25 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 markdown: kramdown
+author:
+  name: "Fiscalité Immo Facile"
+  bio: "Conseiller fiscal spécialisé en immobilier locatif, actif chaque jour sur Facebook."
+  avatar: "/assets/images/sci-ir-vs-is.png"
+  location: "France"
+  links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/FiscaliteImmoFacile"
+    - label: "Newsletter"
+      icon: "fas fa-fw fa-envelope"
+      url: "https://newsletter.example.com/fiscalite"
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: true
+      related: true
